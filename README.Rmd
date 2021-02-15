@@ -23,6 +23,10 @@ The following functions are implemented:
 hrbrpkghelpr::describe_ingredients()
 ```
 
+## TODO
+
+The rest of [the API](https://api.radar.qrator.net/).
+
 ## Installation
 
 ```{r install-ex, results='asis', echo=FALSE, cache=FALSE}
@@ -37,6 +41,12 @@ library(qradar)
 # current version
 packageVersion("qradar")
 
+```
+
+```{r ex-01}
+qr_tidy(qr_ip_lookup("17.253.144.10"))
+
+cat(qr_whois("7015"))
 ```
 
 ## qradar Metrics

@@ -4,9 +4,13 @@
 \name{qradar}
 \alias{qradar}
 \alias{qradar-package}
-\title{...}
+\title{Gather Autonomous System, IP Address, and Routing Information from Qrator Radar}
 \description{
-A good description goes here otherwise CRAN checks fail.
+Qrator has an API (\url{https://api.radar.qrator.net/}) that can
+be queried for information on autonomous systems, IP addresses, and
+various internet routing metadata. Tools are provided to perform these
+queries and retrieve resultsets. Note that an account is needed to
+generate the free API key which is required for all API calls
 }
 \seealso{
 Useful links:

@@ -1,0 +1,1 @@
+.qradar_ua <- "Mozilla/5.0 (Compatible; r-qradar/1.0; https://gitlab.com/hrbrmstr/qradar)"
